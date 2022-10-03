@@ -511,6 +511,7 @@ GameObject:
   - component: {fileID: 1542186689}
   - component: {fileID: 1542186692}
   - component: {fileID: 1542186691}
+  - component: {fileID: 1542186693}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -562,8 +563,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Sprite","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 499390158}
 --- !u!50 &1542186691
 Rigidbody2D:
   serializedVersion: 4
@@ -611,6 +613,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.2615576}
   m_EdgeRadius: 0
+--- !u!95 &1542186693
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542186687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f0e2f954320e1ab4b87b8d1994d51f4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1811219986
 GameObject:
   m_ObjectHideFlags: 0
